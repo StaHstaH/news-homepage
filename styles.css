@@ -1,0 +1,59 @@
+:root {
+  --white: #ffffff;
+  --almostwhite: #FFFDFA;
+  --darkspaceblue: #00001A;
+  --gunmetal: #5E607A;
+  --silver: #C5C6CE;
+  --lightvermillion: #F15D51;
+  --yellow: #E9AA52;
+}
+
+body {
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  display:flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  list-style:none;
+  margin: 1rem 1.25rem;
+  text-transform: uppercase;
+}
+
+h1{
+  color: var(--darkspaceblue);
+  font-weight: 800;
+  font-size: 3.5rem;
+  max-width: 20rem;
+}
+
+/* #hero {
+  display:grid;
+} */
+
+#hero button {
+  max-width: 30%;
+}
+
+#hero-image-desktop {
+  max-width: 45.5rem;
+}
+
+#main-news {
+  display:grid;
+}
+
