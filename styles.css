@@ -21,6 +21,7 @@ header {
 
 main {
   display:flex;
+
 }
 
 ul {
@@ -41,9 +42,10 @@ h1{
   max-width: 20rem;
 }
 
-/* #hero {
+#hero {
   display:grid;
-} */
+  justify-items: start;
+}
 
 #hero button {
   max-width: 30%;
@@ -55,5 +57,7 @@ h1{
 
 #main-news {
   display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
