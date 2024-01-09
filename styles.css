@@ -15,7 +15,7 @@ body {
 
 header {
   display:flex;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items: center;
 }
 
@@ -58,6 +58,13 @@ h1{
 #main-news {
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
+#other-news {
+  display: flex;
+}
+
+.news {
+  display:flex;
+  flex-direction: column;
+}
