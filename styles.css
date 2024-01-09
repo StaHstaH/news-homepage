@@ -17,6 +17,7 @@ header {
   display:flex;
   justify-content:space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 main {
@@ -45,6 +46,7 @@ h1{
 #hero {
   display:grid;
   justify-items: start;
+  padding: 1rem;
 }
 
 #hero button {
@@ -58,6 +60,10 @@ h1{
 #main-news {
   display:grid;
   grid-template-columns: 1fr 1fr;
+}
+
+#new-info {
+  padding: 1rem;
 }
 
 #other-news {
