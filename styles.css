@@ -32,6 +32,7 @@ main {
 ul {
   display: flex;
   flex-direction: row;
+  padding-right: 1.2rem;
 }
 
 ul li {
@@ -46,6 +47,8 @@ h1{
   font-weight: 800;
   font-size: 3.5rem;
   max-width: 20rem;
+  line-height: normal;
+  padding-top: 2rem;
 }
 
 #hero {
@@ -55,7 +58,16 @@ h1{
 }
 
 #hero button {
-  max-width: 30%;
+  /* max-width: 12rem; */
+  border:none;
+  padding: 0.8rem 2rem;
+  margin-top: 2rem;
+  background-color: var(--lightvermillion);
+  color: var(--almostwhite);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
 }
 
 #hero-image-desktop {
@@ -69,15 +81,50 @@ h1{
   max-width:48rem;
 }
 
+#news-content p {
+  color: var(--gunmetal);
+  line-height: 1.75rem;
+  padding-top: 2rem;
+  max-width: 23rem;
+}
+
 #new-info {
-  padding: 1rem;
+  padding: 2.1rem 1.6rem;
+  margin-top: 1rem;
+  background-color: var(--darkspaceblue);
+  max-width: 23rem;
+  max-height: 34rem;
+}
+
+#new-info h2 {
+  color: var(--yellow);
+  font-size: 2.7rem;
+}
+
+#new-info h4, p {
+  color: var(--almostwhite);
+}
+
+#new-info h4 {
+  font-size: 1.33rem;
+  padding-bottom: 0.5rem;
+}
+
+#new-info p {
+  line-height: 26px;
+}
+
+#new-info p:nth-child(n+3):nth-child(-n+5) {
+  border-bottom: 1px solid #5E607A;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 #other-news {
   display: flex;
+  
+  /* align-content:center; */
+  justify-items: center;
+  align-content:space-around;
 }
 
-.news {
-  display:flex;
-  flex-direction: column;
-}
