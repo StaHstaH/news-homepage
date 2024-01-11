@@ -6,6 +6,7 @@
   --silver: #C5C6CE;
   --lightvermillion: #F15D51;
   --yellow: #E9AA52;
+  font-size: 15px;
 }
 
 body {
@@ -17,12 +18,15 @@ header {
   display:flex;
   justify-content:space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 12rem;
+  margin: 2rem auto;
+
 }
 
 main {
   display:flex;
-
+  padding-left: 11rem;
+  padding-right: 11rem;
 }
 
 ul {
@@ -33,7 +37,8 @@ ul {
 ul li {
   list-style:none;
   margin: 1rem 1.25rem;
-  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--gunmetal);
 }
 
 h1{
@@ -54,12 +59,14 @@ h1{
 }
 
 #hero-image-desktop {
-  max-width: 45.5rem;
+  max-width: 48rem;
+  
 }
 
 #main-news {
   display:grid;
   grid-template-columns: 1fr 1fr;
+  max-width:48rem;
 }
 
 #new-info {
