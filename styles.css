@@ -71,8 +71,9 @@ h1{
 }
 
 #hero-image-desktop {
-  max-width: 48rem;
-  
+  max-width: 100%;
+    height: auto;
+  padding-right:1rem;
 }
 
 #main-news {
@@ -125,6 +126,23 @@ h1{
   
   /* align-content:center; */
   justify-items: center;
-  align-content:space-around;
+  align-content: space-between;
+  margin: 0 auto;
+  max-width: 48rem;
 }
 
+.news {
+  display:flex;
+  flex-direction: column;
+  max-width: 250px;
+  
+}
+
+.news p {
+  color: var(--gunmetal);
+}
+
+#other-news img {
+  max-width: 6.7rem;
+  height: auto;
+}
